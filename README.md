@@ -212,17 +212,3 @@ This repository serves as:
 **Sandra Castrejon**
 
 Electrical & Computer Engineer
-
----
-
-# License
-
-This repository is intended for educational and engineering reference purposes.
-
-Please add an appropriate open-source license (MIT, BSD, Apache 2.0, etc.) before redistributing these designs.
-
----
-
-## Acknowledgments
-
-Special thanks to the open-source electronics community and the developers of OrCAD, PSpice, and KiCad for providing powerful tools that support electronic design, simulation, and education.

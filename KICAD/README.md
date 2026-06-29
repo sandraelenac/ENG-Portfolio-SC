@@ -62,16 +62,10 @@ The current hardware implementation, **Revision G**, is shown below.
 
 The complete electrical schematic for Revision G is provided below.
 
-<details>
-<summary><strong>View TAU Revision G Schematic</strong></summary>
-
-<br>
-
 <p align="center">
   <img src="./images/TAU REV G_Schecmatic.png" alt="TAU Revision G Schematic" width="1000">
 </p>
 
-</details>
 
 ---
 

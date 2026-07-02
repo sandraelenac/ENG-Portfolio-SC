@@ -175,24 +175,6 @@ Each revision generally contains:
 
 ---
 
-# Getting Started
-
-Clone the repository
-
-```bash
-git clone https://github.com/sandraelenac/KiCad-Sample.git
-```
-
-Navigate into the project
-
-```bash
-cd KiCad-Sample
-```
-
-Open any project by launching its corresponding `.OPJ` file in OrCAD Capture.
-
----
-
 # Repository Purpose
 
 This repository serves as:

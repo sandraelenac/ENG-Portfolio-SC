@@ -5,11 +5,11 @@
 Design a 50 Ω (OHM) LNA printed circuit board (PCB) using **PSpice** for simulation and **KiCad** for schecmatic/layout/manufacturing files.
 
 ---
-## Requirements
+## Electrical Requirements
 - Frquency Range: 500Mhz - 2 GHz
 - Small Signal Gain: 18 - 20 dB
 - Gain Flatness: +/- 1 dB
-- Noise Figure: < 1.5 DB
+- Noise Figure: < 1.5 dB
 - Input Return Loss: better than -10 dB
 - Output Return Loss: better than -10 dB
 - Input Impedance: 50 Ω 

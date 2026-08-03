@@ -1,20 +1,61 @@
-# ECE508-ABM-AviationAnomaly
-Repo for ECE 508 final project that aims to develop an agent-based simulation to detect and analyze critical  aircraft anomalies that can compromise flight safety and highlight how AI-driven  detection systems can enhance situational awareness and enable a more proactive  anomaly mitigation approach.
+# Multi-Agent Reinforcement Learning for Air Traffic Management
 
+ECE 508 Graduate Research Project
 
-#Anything to you add to the repo will need to be "added" + "committed" , and "pushed"
+---
 
-NOTE: If I create a new directory, make sure the name doesn't include any spaces or parenthesis () 
+## Overview
 
-Example: Good directory name "FlightPath" or "Flight-Path" or "Flight_Path", all of these directories makes it easier to add it to the repo.
+This project investigates how Multi-Agent Reinforcement Learning (MARL) can assist with air traffic management by learning conflict-resolution strategies from historical aircraft trajectories.
 
-once you add the files to the directory,
--------------------------------------------------------------------
-type $ "git status" to see the modified changes
+The environment models multiple aircraft operating simultaneously while reinforcement-learning agents learn to reduce conflicts, reroutes, and congestion through repeated interaction.
 
-To add the files to the repo copy each file path -> $"git add <path to new file> <path to new file> add more files.
+---
 
-then commit changes $ "git commit -m "Add a message of what is being committed"
+## Objectives
 
-Then push the changes $ "git push"
------------------------------------------------------------------------------ 
+• Detect aircraft conflicts
+
+• Minimize reroutes
+
+• Reduce congestion
+
+• Maximize overall reward
+
+• Compare learning performance across multiple aircraft
+
+---
+
+## Dataset
+
+Source:
+
+OpenSky Network
+
+Contains:
+
+- Aircraft positions
+- Latitude
+- Longitude
+- Altitude
+- Velocity
+- Callsigns
+- Time history
+
+---
+
+## Software Stack
+
+Python
+
+NumPy
+
+Pandas
+
+Matplotlib
+
+Mesa
+
+OpenSky API
+
+Gymnasium

@@ -1,16 +1,16 @@
 # Sandra Castrejon — Engineering Portfolio
+Electrical & Computer Engineer
 
+RF • Flight Test • Radar • PCB Design • Python • SQL • AI • Data Engineering
+
+---
+
+Welcome to my engineering portfolio.
+
+This repository showcases personal, academic, and professional-inspired engineering projects spanning RF hardware design, flight-test systems, PCB development, Python automation, database engineering, and applied machine learning.
+
+Every project emphasizes structured engineering processes, technical documentation, reproducibility, and measurable performance.
 This repository contains selected engineering projects demonstrating practical experience with:
-
-- RF and analog circuit design
-- Schematic capture and PCB development
-- Circuit simulation
-- SQL database architecture
-- Python automation and data processing
-- Database performance benchmarking
-- Aviation data analysis
-- Engineering documentation and configuration control
-
 ---
 
 ## Featured Projects

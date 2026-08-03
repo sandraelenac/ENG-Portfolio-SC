@@ -1,0 +1,56 @@
+from mesa import Agent, Model
+import math
+from air_traffic_control.agents.aircraft import Aircraft
+from queue import Queue
+
+class ControlTower(Agent):
+    def __init__(self, model: Model, control_radius_km: int):
+        super().__init__(model=model)
+        self.control_radius_km = control_radius_km
+        self.aircraft_to_direct = Queue()
+        
+    def step(self):
+        weather = self.model.weather_agent.get_conditions()
+        # Iterate over all agents
+        for agent in self.model.agents:
+            if isinstance(agent, Aircraft):
+                if agent.pos is None:
+                    continue
+                
+                if self._in_control_area(agent.pos):
+                    self.aircraft_to_direct.put(agent)
+                    # self._issue_instructions(agent, weather)
+    
+    def _in_control_area(self, position) -> bool:
+        if position is None or position == (None, None):
+            return False
+        distance = self._haversine((self.model.latitude, self.model.longitude), position)
+        return distance <= self.control_radius_km
+
+    def _issue_instructions(self, aircraft, weather):
+        if weather.get("visibility") == "Low" or weather.get("precipitation") == "Storm":
+            aircraft.status = "Holding"
+        elif aircraft.status == "In Flight":
+            aircraft.status = "Cleared to Land"
+    
+    def _clearance(self, aircraft):
+        if aircraft.status == "In Flight":
+            aircraft.status = "Cleared to Land"
+        elif aircraft.status == "Holding":
+            aircraft.status = "Cleared for Approach"
+
+    def _priority(self, aircraft):
+        # Implement priority logic based on aircraft type, fuel status, etc.
+        # For now, just return the aircraft as is
+        return aircraft
+            
+    def _haversine(self, coord1, coord2):
+            # Calculate great circle distance (in km) between two (lat,lon) points.
+            lat1, lon1 = coord1
+            lat2, lon2 = coord2
+            R = 6371  # Earth radius in km
+            dlat = math.radians(lat2 - lat1)
+            dlon = math.radians(lon2 - lon1)
+            a = math.sin(dlat/2)**2 + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlon/2)**2
+            c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+            return R * c

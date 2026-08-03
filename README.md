@@ -20,7 +20,7 @@ This repository contains selected engineering projects demonstrating practical e
 | [Low Noise Amplifier](./Low%20Noise%20Amplifier%20%28LNA%29) | RF amplifier design from electrical requirements through simulation and PCB development | KiCad, PSpice, RF Design | In Progress |
 | [RX Test Acquisition Unit](./RX%20Test%20ACQ%20Unit) | High-speed optical receiver front end, PCB design, simulation, and manufacturing documentation | KiCad, OrCAD, PSpice | Completed Design |
 | [Banking Database](./SQL/BankingDB) | Relational schema design, synthetic data generation, ETL, SQL optimization, and scalability testing | Python, SQL, SQLite | Completed |
-| [Aviation Anomaly Analysis](./ECE508-ABM-AviationAnomaly) | Aviation-focused data analysis and anomaly-modeling coursework | Python, Data Analytics | In Progress |
+| [Aviation Anomaly Analysis](./ECE508-ABM-AviationAnomaly) | Aviation-focused data analysis and anomaly-modeling coursework | Python, Data Analytics | Completed |
 
 ---
 
@@ -358,21 +358,6 @@ Individual project directories contain more detailed setup and execution instruc
 
 ---
 
-# Project Roadmap
-
-Future portfolio projects may include:
-
-- RF filter bank
-- RF power detector
-- RF switching matrix
-- GPS active antenna
-- RF signal generator
-- RF spectrum monitor
-- Flight-test data validation tools
-- Engineering test-event tracking database
-- Radar geometry and coordinate-transformation tools
-
----
 
 # Portfolio Purpose
 

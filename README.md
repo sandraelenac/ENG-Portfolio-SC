@@ -75,25 +75,6 @@ I am an Electrical & Computer Engineer with a passion for solving complex engine
 
 ---
 
-# Repository Structure
-
-```text
-ENG-Portfolio-SC/
-│
-├── ECE508-ABM-AviationAnomaly/
-│
-├── Low Noise Amplifier (LNA)/
-│
-├── RX Test ACQ Unit/
-│
-├── SQL/
-│   └── BankingDB/
-│
-└── README.md
-```
-
----
-
 # Engineering Process
 
 Every project follows a structured engineering workflow:
@@ -116,10 +97,9 @@ Every project follows a structured engineering workflow:
 - 🚧 Low Noise Amplifier
 - ⏳ RF Filter Bank
 - ⏳ RF Power Detector
-- ⏳ RF Switching Matrix
 - ⏳ GPS Active Antenna
 - ⏳ RF Signal Generator
-- ⏳ RF Spectrum Monitor
+
 
 ## Software & Data
 
@@ -134,20 +114,6 @@ Every project follows a structured engineering workflow:
 # Portfolio Purpose
 
 This repository demonstrates engineering projects that integrate hardware, software, and systems engineering principles. Each project emphasizes measurable requirements, reproducible workflows, technical documentation, and engineering best practices.
-
----
-
-# About Me
-
-I am an Electrical & Computer Engineer with interests in:
-
-- Flight Test Engineering
-- RF & Radar Systems
-- Electronics Design
-- Artificial Intelligence
-- Database Engineering
-- Data Analysis
-- Embedded Systems
 
 ---
 

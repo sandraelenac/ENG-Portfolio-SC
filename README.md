@@ -6,54 +6,71 @@
 
 Welcome to my engineering portfolio.
 
-I am an Electrical & Computer Engineer with a passion for solving complex engineering problems through hardware design, software development, data analysis, and systems engineering. This repository contains personal, academic, and engineering projects demonstrating complete engineering workflows—from requirements definition through implementation, verification, and technical documentation.
+I am an Electrical & Computer Engineer passionate about designing complete engineering solutions that combine hardware, software, and systems engineering. This repository showcases projects spanning RF hardware, aerospace systems, artificial intelligence, and data engineering. Each project demonstrates a structured engineering workflow—from requirements definition through design, implementation, verification, and documentation.
 
 ---
 
 # Featured Projects
 
-| Project | Description | Technologies | Status |
-|----------|-------------|--------------|--------|
-| 📡 [Low Noise Amplifier (LNA)](./Low%20Noise%20Amplifier%20%28LNA%29) | Design of a wideband RF low noise amplifier including requirements, simulation, PCB layout, and documentation. | KiCad, PSpice, RF Design | 🚧 In Progress |
-| ⚡ [RX Test Acquisition Unit](./RX%20Test%20ACQ%20Unit) | High-speed optical receiver board featuring schematic capture, PCB layout, circuit simulation, and manufacturing outputs. | KiCad, OrCAD, PSpice | ✅ Completed |
-| 🗄️ [Banking Database](./SQL/BankingDB) | Relational database with synthetic data generation, ETL workflows, query optimization, benchmarking, and performance analysis. | Python, SQL, SQLite | ✅ Completed |
-| ✈️ [Multi-Agent Reinforcement Learning for Air Traffic Management](./ECE508-ABM-AviationAnomaly) | Graduate research applying reinforcement learning to aircraft anomaly detection and air traffic management. | Python, Reinforcement Learning, Data Analytics | ✅ Completed |
+| Project | Engineering Focus | Technologies | Status |
+|----------|-------------------|--------------|--------|
+| 📡 [Low Noise Amplifier (LNA)](./RF%20Hardware/Low%20Noise%20Amplifier%20%28LNA%29) | Design of a wideband RF low-noise amplifier including requirements, simulation, PCB layout, and documentation. | KiCad • PSpice • RF Design | 🚧 In Progress |
+| ⚡ [RX Test Acquisition Unit](./RF%20Hardware/RX%20Test%20ACQ%20Unit) | High-speed optical receiver board featuring schematic capture, PCB layout, analog simulation, and manufacturing outputs. | KiCad • OrCAD • PSpice | ✅ Completed |
+| 💾 [Banking Database](./Data%20EN/BankingDB) | End-to-end relational database with synthetic data generation, ETL workflows, SQL optimization, and benchmarking. | Python • SQL • SQLite | ✅ Completed |
+| 🤖 [MARL for Air Traffic Management](./AI-ML/MARL%20for%20ATC%20Management) | Graduate research applying multi-agent reinforcement learning to aircraft conflict detection and air traffic management. | Python • Reinforcement Learning • Data Analytics | ✅ Completed |
 
 ---
 
-# Engineering Disciplines
+# Engineering Areas
 
-## Hardware & RF
+## 📡 RF Hardware
+
+Designing analog and RF hardware from concept through manufacturing.
 
 - RF Circuit Design
 - Analog Electronics
-- PCB Layout
+- PCB Design
 - Signal Integrity
-- High-Speed Circuits
-- Schematic Capture
 - Circuit Simulation
 - Manufacturing Documentation
 
-## Software & Data
+---
 
-- Python
-- SQL
+## 💾 Data Engineering
+
+Building scalable data processing and database solutions.
+
+- Python Automation
+- SQL Development
 - SQLite
-- Data Engineering
 - ETL Pipelines
 - Database Optimization
 - Performance Benchmarking
-- Git Version Control
 
-## Aerospace & Systems Engineering
+---
+
+## 🤖 Artificial Intelligence
+
+Applying machine learning techniques to aerospace and engineering problems.
+
+- Reinforcement Learning
+- Data Analytics
+- Visualization
+- Simulation
+- Model Evaluation
+
+---
+
+## ✈️ Aerospace & Flight Test
+
+Engineering support for test planning, execution, and data analysis.
 
 - Flight Test Engineering
 - Radar Systems
 - Requirements Verification
-- Engineering Data Analysis
-- Test Planning & Execution
+- Test Planning
+- Data Validation
 - Technical Documentation
-- Systems Integration
 
 ---
 
@@ -61,59 +78,82 @@ I am an Electrical & Computer Engineer with a passion for solving complex engine
 
 ### Hardware
 
-![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)
-![PSpice](https://img.shields.io/badge/PSpice-Cadence-red?style=flat-square)
-![OrCAD](https://img.shields.io/badge/OrCAD-Cadence-red?style=flat-square)
-![PCB Design](https://img.shields.io/badge/PCB-Design-green?style=flat-square)
+- KiCad
+- Cadence OrCAD Capture
+- Cadence PSpice
+- PCB Layout
+- RF Design
+- Analog Circuit Design
 
-### Software
+### Programming
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+- Python
+- SQL
+- SQLite
+- Git
+- GitHub
+
+### Engineering
+
+- Systems Engineering
+- Flight Test
+- Requirements Verification
+- Engineering Analysis
+- Technical Documentation
 
 ---
 
-# Engineering Process
+# Engineering Workflow
 
-Every project follows a structured engineering workflow:
+Every project in this repository follows a structured engineering lifecycle.
 
 1. Requirements Definition
 2. System Architecture
 3. Design & Development
-4. Simulation or Implementation
+4. Simulation / Implementation
 5. Verification & Validation
 6. Documentation
-7. Continuous Improvement
+7. Future Improvements
 
 ---
 
 # Current Portfolio Roadmap
 
-## RF & Hardware
+## RF Hardware
 
 - ✅ RX Test Acquisition Unit
 - 🚧 Low Noise Amplifier
 - ⏳ RF Filter Bank
 - ⏳ RF Power Detector
+- ⏳ RF Switching Matrix
 - ⏳ GPS Active Antenna
 - ⏳ RF Signal Generator
+- ⏳ RF Spectrum Monitor
 
-
-## Software & Data
+## Data Engineering
 
 - ✅ Banking Database
-- ✅ Multi-Agent Reinforcement Learning for Air Traffic Management
 - ⏳ Flight Test Event Tracker
 - ⏳ Radar Coordinate Transformation Toolkit
-- ⏳ Flight Data Validation Tools
+
+## Artificial Intelligence
+
+- ✅ MARL for Air Traffic Management
+- ⏳ Aircraft Anomaly Detection
 
 ---
 
-# Portfolio Purpose
+# About Me
 
-This repository demonstrates engineering projects that integrate hardware, software, and systems engineering principles. Each project emphasizes measurable requirements, reproducible workflows, technical documentation, and engineering best practices.
+My engineering interests include:
+
+- RF & Microwave Engineering
+- Flight Test Engineering
+- Radar Systems
+- PCB Design
+- Artificial Intelligence
+- Data Engineering
+- Python Software Development
 
 ---
 

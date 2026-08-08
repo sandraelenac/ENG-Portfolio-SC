@@ -4,11 +4,11 @@
 
 Design a 50 Ω (OHM) LNA printed circuit board (PCB) using **PSpice** for simulation and **KiCad** for schecmatic/layout/manufacturing files.
 
-## Project Status
+## Project Status: Rev 0.2
 **Curent Revision:** Rev 0.2 - Design / Component Selection See [CHANGELOG.md](CHANGELOG.md) for the complete design revision history.
 
 ---
-## Electrical Requirements (Rev 0.2)
+## Electrical Requirements
 - Frquency Range: 100Mhz - 1 GHz
 - Small Signal Gain: 10 - 20 dB
 - Gain Flatness: +/- 1.5 dB

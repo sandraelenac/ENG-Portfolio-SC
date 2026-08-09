@@ -24,7 +24,7 @@ Design a 50 Ω (OHM) LNA printed circuit board (PCB) using **PSpice** for simula
 ---
 ## Block Diagram
 <p align="center">
-  <img src="/1. Design/LNA-Block-Diagram.pngg" alt="Simple RX LNA Block Diagram" width="1000">
+  <img src="/1. Design/LNA-Block-Diagram.png" alt="Simple RX LNA Block Diagram" width="1000">
 </p>
 
 ---

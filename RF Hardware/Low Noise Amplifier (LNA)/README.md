@@ -23,9 +23,14 @@ Design a 50 Ω (OHM) LNA printed circuit board (PCB) using **PSpice** for simula
 
 ---
 ## Block Diagram
+A simple block diagram is shown below to illustrate the LNA within a receiver front end. The signal received by the antenna passes through an antenna switch, RF preselector, and impedance-matching network before entering the LNA. After amplification, the signal passes through an output-matching network and is routed to the mixer and filter for further processing. 
+
 <p align="center">
   <img src="1. Design/LNA-Block-Diagram.png" alt="Simple RX LNA Block Diagram" width="1000">
 </p>
+
+---
+# PSPICE Schematic
 
 ---
 # PSPICE Simulation Results
